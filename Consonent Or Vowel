@@ -1,0 +1,10 @@
+function ConsonentOrVowel(ch){
+  ch=ch.toLowerCase();
+  if(ch=='o' || ch=='i' || ch=='e' || ch=='a' || ch=='u' ){
+    console.log(ch, " is Vowel");
+  }
+  else{
+    console.log(ch, " is not Vowel");
+  }
+}
+ConsonentOrVowel('b')
